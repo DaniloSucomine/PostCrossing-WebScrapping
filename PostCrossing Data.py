@@ -24,4 +24,4 @@ for i in range(5000):
         dados.append(5395682 - i)
         df.loc[len(df)] = dados
     print(f"""{i}/5000""")
-df.to_excel(r'C:\Users\danil\PycharmProjects\pythonProject\WebScrapping Study\DadosPostCrossing.xlsx', index=False)
+df.to_excel(r'YourAddress.xlsx', index=False)
